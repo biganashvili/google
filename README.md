@@ -1,10 +1,34 @@
 # google
 Cool Google Features for SEO
+## Require this package with Composer
+Install this package through [Composer](https://getcomposer.org/).
+Edit your project's `composer.json` file to require
+`biganashvili/google`.
 
+Create *composer.json* file:
+```js
+{
+    "name": "yourproject/yourproject",
+    "type": "project",
+    "require": {
+        "biganashvili/google": "~1.1.0"
+    }
+}
+```
+And run composer update
+
+**Or** run a command in your command line:
+
+```
+composer require longman/ip-tools
+```
+# Usage
+```php
 <?php
 require '/../vendor/autoload.php';
 use \Biganashvili\Google\GoogleSearch;
 use \GuzzleHttp\Client;
+
 $client=New Client();
 $googleSearch=new GoogleSearch($client);
 $bulck_array=array(
@@ -26,3 +50,12 @@ foreach ($results as $key => $value) {
 echo "</table>";
 
 ?>
+```
+## License
+
+Please see the [LICENSE](LICENSE.md) included in this repository for a full copy of the MIT license,
+which this project is licensed under.
+
+## Credits
+
+- [Sergi Biganashvili](https://github.com/biganashvili)
