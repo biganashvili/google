@@ -5,6 +5,7 @@
     "type": "library",
     "keywords": ["google", "search", "result","count","search count","results count"],
     "license": "MIT",
+    "homepage": "https://github.com/biganashvili/google",
     "authors":[
         {
             "name": "Sergi Biganashvili",
@@ -13,13 +14,15 @@
             "role": "Developer"
         }
       ],
-    "require": {
-        "guzzlehttp/guzzle": "^6.2"
-    },
     "autoload": {
         "psr-4": {
           "GuzzleHttp\\": "src/",
           "Biganashvili\\Google\\": "src/"
         }
-      }
+      },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "guzzlehttp/guzzle": "^6.2"
+    }
+
 }
