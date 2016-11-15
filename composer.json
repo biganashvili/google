@@ -1,0 +1,25 @@
+{
+    "name":"google-search-results-counter",
+    "description":"Fetchs Google Search Count",
+    "version":"0.9",
+    "type": "library",
+    "keywords": ["google", "search", "result","count","search count","results count"],
+    "license": "MIT",
+    "authors":[
+        {
+            "name": "Sergi Biganashvili",
+            "email": "biganashvili@gmail.com",
+            "homepage": "https://github.com/biganashvili",
+            "role": "Developer"
+        }
+      ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+          "GuzzleHttp\\": "src/",
+          "Biganashvili\\Google\\": "src/"
+        }
+      }
+}
