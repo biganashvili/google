@@ -20,7 +20,7 @@ And run composer update
 **Or** run a command in your command line:
 
 ```
-composer require longman/ip-tools
+composer require biganashvili/google
 ```
 # Usage
 ```php
