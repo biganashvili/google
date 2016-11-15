@@ -20,6 +20,9 @@
           "Biganashvili\\Google\\": "src/"
         }
       },
+    "require": {
+        "php": ">=5.6.0"
+    },
     "require-dev": {
         "guzzlehttp/guzzle": "^6.2"
     },
