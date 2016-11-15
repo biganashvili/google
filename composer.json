@@ -20,7 +20,6 @@
           "Biganashvili\\Google\\": "src/"
         }
       },
-    "minimum-stability": "dev",
     "require-dev": {
         "guzzlehttp/guzzle": "^6.2"
     }
