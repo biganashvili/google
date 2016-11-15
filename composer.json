@@ -1,5 +1,5 @@
 {
-    "name":"google-search-results-counter",
+    "name":"biganashvili/google",
     "description":"Fetchs Google Search Count",
     "version":"0.9",
     "type": "library",
