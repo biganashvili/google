@@ -1,7 +1,7 @@
 {
     "name":"biganashvili/google",
     "description":"Fetchs Google Search Count",
-    "version":"0.9",
+    "version":"2.0",
     "type": "library",
     "keywords": ["google", "search", "result","count","search count","results count"],
     "license": "MIT",
@@ -21,11 +21,12 @@
         }
       },
     "require": {
-        "php": ">=5.5.0"
-    },
-    "require-dev": {
+        "php": ">=5.5.0",
         "guzzlehttp/guzzle": "^6.2"
     },
-    "minimum-stability": "stable"
+    "require-dev": {
+        
+    },
+    "minimum-stability": "dev"
 
 }
