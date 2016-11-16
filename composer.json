@@ -14,17 +14,11 @@
             "role": "Developer"
         }
       ],
-    "autoload": {
-        "psr-4": {
-          "GuzzleHttp\\": "src/",
-          "Biganashvili\\Google\\": "src/"
-        }
-      },
+
     "require": {
         "php": ">=5.5.0",
          "guzzlehttp/guzzle": "^6.2"
     },
   
-     "minimum-stability": "stable"
 
 }
