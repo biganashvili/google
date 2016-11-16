@@ -25,6 +25,6 @@
          "guzzlehttp/guzzle": "^6.2"
     },
   
-     "minimum-stability": "dev"
+     "minimum-stability": "stable"
 
 }
