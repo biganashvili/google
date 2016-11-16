@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/biganashvili/google.svg?branch=master)](https://travis-ci.org/biganashvili/google.svg?branch=master)
-[![Total Downloads](https://poser.pugx.org/KennedyTedesco/Validation/downloads.svg)](https://packagist.org/packages/KennedyTedesco/Validation)
+[![Build Status](https://travis-ci.org/biganashvili/google.svg?branch=master)](https://travis-ci.org/biganashvili/google/)
+
 # google
 Cool Google Features for SEO
 ## Require this package with Composer
